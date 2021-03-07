@@ -1,0 +1,30 @@
+{% include coresite.html %}
+{% include header.html %}
+
+
+<div class="container-writing">
+    <br><br><br><br><br>
+    <h1>{{ page.title }}</h1>
+    <div style="margin-top: 25px;"></div>
+    {{ content }}
+</div>
+
+<div style="margin-top: 30px;"></div>
+{% include footer.html %}
+
+<style>
+    p {
+        font-size: 120%;
+    }
+
+    .container-writing {
+        max-width: 900px !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    h1,h2,h3,h4 {
+        text-align: center;
+    }
+</style>

@@ -1,0 +1,65 @@
+<div class="blog-card col-lg-4">
+    <a href="{{post.url}}"><div style="height: 220px;border-radius: 10px;background-color: #dfdfdf;" class="fill">
+        <img class="blog-thumbnail" alt="{{post.thumbnail-alt}}" loading="lazy" src="{{ post.featured-image }}" style="width: auto; height: 120%;">
+    </div></a>
+    <span class="page-date" style="margin-top: 10px;display: block;">{{ post.date | date: '%B %d, %Y' }}</span>
+    <a href="{{post.url}}"><h2 class="blog-card-title" style="margin-bottom: 5px;margin-top: 5px;">{{post.title}}</h2></a>
+    <p style="font-size: 100% !important;">{{ post.content | strip_html | truncatewords: 15 }}</p>
+
+</div>
+
+<style>
+    
+.blog-card {
+    min-height: auto;
+    padding: 15px;
+    padding-bottom: 10px;
+    max-width: 500px;
+    min-width: 350px;
+}
+
+.fill {
+    transition: 0.3s ease-in-out;
+}
+.blog-card .fill:hover {
+    transform:scale(1.05);
+}
+
+
+
+.blog-card a {
+    color: black;
+    text-decoration: none;
+}
+
+
+@media
+
+/* Fairly small screens including iphones */
+
+
+only screen and (max-width: 900px)  {
+    
+    .blog-card {
+        margin-top: 20px !important;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-bottom: 20px;
+        margin: 0;
+        font-size: 100%;
+        min-height: 300px;
+        height: auto;
+        
+
+    }
+
+    .blog-card p {
+        display: none;
+    }
+
+    .blog-card .fill {
+        border-radius: 5px !important;
+        height: 200px !important;
+    }
+}
+</style>

@@ -1,0 +1,18 @@
+{% include coresite.html %}
+{% include header.html %}
+<div style="margin-top: 150px;"></div>
+<h1 style="text-align: center;font-size: 350%;">News</h1>
+<div class="news-strip" style="margin-top: 50px;">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            {% for post in site.posts %}
+            {% include components/key/blogcard.html %}
+
+        {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div style="margin-bottom: 50px;"></div>
+{% include components/promotions/newsletter.html %}
+{% include footer.html %}

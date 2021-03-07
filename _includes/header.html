@@ -1,0 +1,114 @@
+
+
+
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/assets/branding/symbolblack.png" alt="" width="75" height="auto">
+            </a>
+
+
+
+            
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span>&#9776; MENU</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" >
+            <ul class="navbar-nav">
+                {% assign navigation_pages = site.html_pages | sort: 'navigation_weight'%}
+                {% for p in navigation_pages %}
+                  {% if p.navigation_weight %}
+            <li class="nav-item">
+                <a class="nav-link" href="{{p.url}}">{{p.title}}</a>
+
+            </li>
+            {% endif %}
+            {% endfor %}
+            <li id="takeactionlink" class="nav-item">
+                <a class="btn btn-danger btn-primary btn-lg" href="/takeaction">TAKE ACTION</a>
+
+            </li>
+
+            </ul>
+
+
+        </div>
+
+        <a id="takeactionbutton" class="btn btn-danger btn-primary btn-lg" href="/takeaction">TAKE ACTION</a>
+
+        
+        </div>
+
+
+    </nav>
+<style>
+    .navbar {
+
+
+
+        box-shadow: 0px 0px 10px 0px #000000;
+
+
+    }
+
+    .btn-danger {
+        background-color: #ff3f3f;
+    }
+    .active {
+        font-weight: 700 !important;
+        background-color: #ff3f3f !important;
+        color: white !important;
+        border-radius: 5px;
+    }
+    .nav-link {
+        font-size: 110%;
+    }
+
+    .navbar {
+        height: 80px;
+    }
+
+
+
+        @media only screen and (max-width: 992px) {
+
+
+            #takeactionbutton {
+                display: none;
+            }
+
+            .navbar-collapse {
+                background-color: white; padding: 25px;
+            }
+
+            .navbar-toggler {
+                background-color: #ff3f3f;
+                color: white !important;
+                font-size: 150%;
+            }
+
+
+
+        
+
+
+}
+
+@media only screen and (min-width: 992px) {
+
+            #takeactionlink {
+                display: none;
+            }
+
+            .navbar-brand {
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+        }
+        
+
+
+}
+
+</style>
