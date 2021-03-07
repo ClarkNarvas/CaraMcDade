@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Make sure you vote for these endorsed candidates alongside Cara ✊"
-date:   2021-03-06 13:07:16 +0000
+date:   2021-03-06 14:07:16 +0000
 featured-image: /images/voteforcaraand/thumbnail.png
-navigation_weight: 1
 ---
 The Young Scottish Labour elections are in less than a week. Cara needs you to vote for the following candidates that will represent and campaign alongside her to bring about the change young people need. ⬇
 
