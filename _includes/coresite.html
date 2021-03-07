@@ -6,11 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
+
+    <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+    <meta property="og:description" content="{{ page.description }}"/>
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    <meta property="og:image" content="{% if page.thumbnail %}https://caramcdade.com{{ page.featured-image }}{% else %}https://caramcdade.com/assets/branding/homepage-thumbnail.png{% endif %}"/>
+    <meta property="og:image:width" content="1920"/>
+    <meta property="og:image:height" content="1080"/>
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@caramcdade_">
+    <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{{ page.description }}">
+    <meta name="twitter:image" content="{% if page.thumbnail %}https://caramcdade.com{{ page.featured-image }}{% else %}https://caramcdade.com/assets/branding/homepage-thumbnail.png{% endif %}">
+    
+
+
+
+
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <link rel="stylesheet preconnect" href="https://use.typekit.net/mcx0jbp.css">
     <link rel="stylesheet" href="/assets/style.css">
     
-    <title>{{page.title}} | Cara McDade for YSL Under 19</title>
+    <title>{{page.title}}</title>
   </head>
   <body>
