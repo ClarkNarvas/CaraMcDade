@@ -10,7 +10,7 @@
     <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
     <meta property="og:description" content="{{ page.description }}"/>
     <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
-    <meta property="og:image" content="{% if page.thumbnail %}https://caramcdade.com{{ page.featured-image }}{% else %}https://caramcdade.com/assets/branding/homepage-thumbnail.png{% endif %}"/>
+    <meta property="og:image" content="{% if page.featured-image %}https://caramcdade.com{{ page.featured-image }}{% else %}https://caramcdade.com/assets/branding/homepage-thumbnail.png{% endif %}"/>
     <meta property="og:image:width" content="1920"/>
     <meta property="og:image:height" content="1080"/>
     
@@ -28,7 +28,7 @@
     <meta name="twitter:site" content="@caramcdade_">
     <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{{ page.description }}">
-    <meta name="twitter:image" content="{% if page.thumbnail %}https://caramcdade.com{{ page.featured-image }}{% else %}https://caramcdade.com/assets/branding/homepage-thumbnail.png{% endif %}">
+    <meta name="twitter:image" content="{% if page.featured-image %}https://caramcdade.com{{ page.featured-image }}{% else %}https://caramcdade.com/assets/branding/homepage-thumbnail.png{% endif %}">
     
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
