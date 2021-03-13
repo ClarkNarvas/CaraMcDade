@@ -12,7 +12,7 @@ Here's what you need to know about these elections:
 ## Can I vote?
 As long as you are a Scottish Labour member and 27 years or younger, you can vote in these elections.
 
-Certain positions, such as Under 19's officer and LGBT Officer, can only be voted by people who identify under the specific category. 
+Certain positions, such as LGBT Officer, can only be voted by people who identify under the specific category. 
 ## What are the positions up for grabs?
 There are a lot of positions available:
 
