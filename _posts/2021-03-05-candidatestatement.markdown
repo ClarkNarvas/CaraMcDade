@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: legacy/post
 title:  "Cara McDade is running to be Scottish Labour's Under 19 officer."
 date:   2021-03-05 13:07:16 +0000
 featured-image: /images/nominationstatement/thumbnail.png

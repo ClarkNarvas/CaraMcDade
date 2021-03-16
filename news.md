@@ -1,5 +1,5 @@
 ---
 title: News from the campaign
-layout: caranews
+layout: legacy/caranews
 navigation_weight: 2
 ---

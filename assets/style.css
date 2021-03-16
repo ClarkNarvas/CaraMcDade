@@ -54,3 +54,11 @@ body {
     align-items: center;
     overflow: hidden;
   }
+
+.archived {
+    background-color: #eeeeee;
+    padding: 10px;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}

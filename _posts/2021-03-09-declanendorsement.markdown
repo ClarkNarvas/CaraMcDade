@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: legacy/post
 title:  "Declan McLean is backing Cara McDade and the slate. 🌹"
 date:   2021-03-09 14:07:16 +0000
 featured-image: /images/endorsedby/1.png

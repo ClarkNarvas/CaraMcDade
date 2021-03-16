@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: legacy/post
 title:  "Make sure you vote for these endorsed candidates alongside Cara ✊"
 date:   2021-03-06 14:07:16 +0000
 featured-image: /images/voteforcaraand/thumbnail.png

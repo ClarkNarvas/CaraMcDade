@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: legacy/post
 title:  "Everything you need to know about the 2021 Scottish Young Labour elections 🌹"
 date:   2021-03-13 07:07:16 +0000
 featured-image: /images/informationvoting/thumbnail.png
