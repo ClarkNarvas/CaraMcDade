@@ -70,3 +70,7 @@ body {
     font-variant: small-caps;
     color: #ff3f3f !important;
   }
+
+.CybotCookiebotDialogBody {
+    font-family: 'Proxima Nova' !important;
+}
