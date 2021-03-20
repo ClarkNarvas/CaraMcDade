@@ -5,7 +5,7 @@
 layout: basepage
 title: Cara McDade - Under 19's Officer
 description: Find out more about how Cara McDade is making a better Scottish Young Labour for Under 19's
-featured-image: https://caramcdade.com/assets/branding/homepage-thumbnail-new.png
+featured-image: /assets/branding/homepage-thumbnail-new.png
 ---
 
 {% include promotions/templates/widepageheader.html %}
