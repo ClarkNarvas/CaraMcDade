@@ -4,11 +4,11 @@
     <a class="topheadmenu" href="https://scotlandjoin.labour.org.uk/">Donate to Labour</a>
   </div>
 </div>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
     <div class="container">
       <a class="navbar-brand" href="/index.html">Cara McDade</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        Menu ˅
+        Menu
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -20,11 +20,11 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/news">Briefing Room</a>
+            <a class="nav-link" href="/news">News</a>
           </li>
         </ul>
         <span class="navbar-text">
-          UNDER 19'S OFFICER
+          SYL Under 19's Officer
         </span>
       </div>
     </div>
@@ -37,6 +37,13 @@
       font-variant: small-caps;
       color: #ff3f3f !important;
     }
+
+    .navbar-text {
+      font-family: 'Proxima Nova';
+      color: #ff3f3f !important;
+      font-weight: 700;
+    }
+
 
     .tophead {
       max-height: 30px;
@@ -56,9 +63,20 @@
       padding-left: 5px;
     }
 
+    .topheadmenu:hover {
+      color: white;
+      background-color: #aa2b2b;
+    }
+
     .topheadmenu:active {
       color: black !important;
       background-color: rgb(255, 217, 0);
       
+    }
+
+    @media (max-width: 990px) {
+      .navbar-text {
+        display: none;
+      }
     }
   </style>

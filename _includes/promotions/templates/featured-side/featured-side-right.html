@@ -3,14 +3,14 @@
         <div class="row">
 
             <div class="col-lg-6 image" style="background-image: url({{include.image}});">
-
+                <span class="alt-text">ALT TEXT: {{include.alt}}</span>
             </div> 
             <div class="col-lg-6 flex">
 
             
                 <div class="featured-side-content">
-                    <h1>{{include.title}}</h1>
-                    <p>{{include.description}}</p>
+                    <span class="featured-side-heading">{{include.title}}</span>
+                    <span class="featured-side-description">{{include.description}}</span>
                     <a class="btn btn-danger" href="{{include.url}}">{{include.button}}</a>
                 </div>
             </div> 
@@ -34,13 +34,27 @@
         
     }
 
+    .alt-text {
+        opacity: 0;
+    }
+
     .featured-side-content {
         margin-top: auto;
         margin-bottom: auto;
         padding: 25px;
     }
 
-    
+    .featured-side span {
+        display: block;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+
+    .featured-side-heading {
+        font-size: 200%;
+        font-weight: 700;
+        padding-bottom: 0 !important;
+    }    
 
     .image {
         background-size: cover;
