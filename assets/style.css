@@ -18,6 +18,7 @@ body, p, a {
 
 a {
     color: #d42c2c;
+    transition: none !important;
 }
 
 a:hover {
@@ -26,7 +27,7 @@ a:hover {
 
 a:active {
     background-color: #ff3f3f;
-    color: white;
+    color: white !important;
 
 }
 
@@ -62,3 +63,10 @@ body {
     margin-bottom: 20px;
     text-align: center;
 }
+
+.logo {
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-variant: small-caps;
+    color: #ff3f3f !important;
+  }

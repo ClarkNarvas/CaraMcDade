@@ -59,4 +59,4 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "carapage.html"
-      featured-image: /assets/branding/defaultimage.png
+      featured-image: https://caramcdade.com/assets/branding/homepage-thumbnail-new.png

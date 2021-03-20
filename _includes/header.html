@@ -1,122 +1,64 @@
+<div class="tophead">
+  <div class="container">
+    <a class="topheadmenu" href="https://scotlandjoin.labour.org.uk/">Join Labour</a>
+    <a class="topheadmenu" href="https://scotlandjoin.labour.org.uk/">Donate to Labour</a>
+  </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/index.html">Cara McDade</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        Menu ˅
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/progress.html">Progress</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/ideas.html">Ideas</a>
+          </li>
 
-
-
-
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand nohighlighteffect" href="/index.html">
-                <img src="/assets/branding/symbolblack.png"  alt="" width="75" height="auto">
-            </a>
-
-
-
-            
-        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span>&#9776; MENU</span>
-        </button> ---> 
-        <!-----
-        <div class="collapse navbar-collapse" id="navbarNav" >
-            <ul class="navbar-nav">
-                {% assign navigation_pages = site.html_pages | sort: 'navigation_weight'%}
-                {% for p in navigation_pages %}
-                  {% if p.navigation_weight %}
-            <li class="nav-item">
-                <a class="nav-link" href="{{p.url}}">{{p.title}}</a>
-
-            </li>
-            {% endif %}
-            {% endfor %}
-        -->
-            <li id="takeactionlink" class="nav-item">
-               <!----- <a class="btn btn-danger btn-primary btn-lg" href="/takeaction">TAKE ACTION</a> -->
-
-            </li>
-
-            </ul>
-
-
-        </div>
-
-        <!--- <a id="takeactionbutton" class="btn btn-danger btn-primary btn-lg" href="/takeaction">TAKE ACTION</a> -->
-
-        
-        </div>
-
-
-    </nav>
-
-    <div class="archived">
-        <div style="margin-top: 150px;"></div>
-        <h2 class="archived">As the campaign is over, this page is archived and will no longer be updated.</h2>
-        <p style="margin-top: 0px;padding: 0px;">Some website data may update dynamically.</p>
+          <li class="nav-item">
+            <a class="nav-link" href="/news">Briefing Room</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          UNDER 19'S OFFICER
+        </span>
+      </div>
     </div>
-<style>
-    .navbar {
+  </nav>
 
-
-
-        box-shadow: 0px 0px 10px 0px #000000;
-
-
+  <style>
+    .navbar-brand {
+      font-family: 'Proxima Nova';
+      font-weight: 700;
+      font-variant: small-caps;
+      color: #ff3f3f !important;
     }
 
-    .btn-danger {
-        background-color: #ff3f3f;
-    }
-    .active {
-        font-weight: 700 !important;
-        background-color: #ff3f3f !important;
-        color: white !important;
-        border-radius: 5px;
-    }
-    .nav-link {
-        font-size: 110%;
+    .tophead {
+      max-height: 30px;
+      background-color: #ff3f3f;
+      position: flex;
+      vertical-align: middle;
+      color: white;
+      
     }
 
-    .navbar {
-        height: 80px;
+    .topheadmenu {
+      color: white;
+      display: inline-block;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-right: 5px;
+      padding-left: 5px;
     }
 
-
-
-        @media only screen and (max-width: 992px) {
-
-
-            #takeactionbutton {
-                display: none;
-            }
-
-            .navbar-collapse {
-                background-color: white; padding: 25px;
-            }
-
-            .navbar-toggler {
-                background-color: #ff3f3f;
-                color: white !important;
-                font-size: 150%;
-            }
-
-
-
-        
-
-
-}
-
-@media only screen and (min-width: 992px) {
-
-            #takeactionlink {
-                display: none;
-            }
-
-            .navbar-brand {
-        transform: translateX(-50%);
-        left: 50%;
-        position: absolute;
-        }
-        
-
-
-}
-
-</style>
+    .topheadmenu:active {
+      color: black !important;
+      background-color: rgb(255, 217, 0);
+      
+    }
+  </style>

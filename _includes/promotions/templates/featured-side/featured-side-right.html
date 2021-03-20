@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="featured-side">
+        <div class="row">
+
+            <div class="col-lg-6 image" style="background-image: url({{include.image}});">
+
+            </div> 
+            <div class="col-lg-6 flex">
+
+            
+                <div class="featured-side-content">
+                    <h1>{{include.title}}</h1>
+                    <p>{{include.description}}</p>
+                    <a class="btn btn-danger">{{include.button}}</a>
+                </div>
+            </div> 
+
+
+        </div>
+    </div>
+</div>
+
+<style>
+
+    .flex {
+        display: flex;
+    }
+    .featured-side {
+        padding: 25px;
+        min-height: 50vh;
+        font-size: 130%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        
+    }
+
+    .featured-side-content {
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 25px;
+    }
+
+    
+
+    .image {
+        background-size: cover;
+        min-height: 50vh;
+        background-position: center;
+        border-radius: 15px;
+    }
+</style>

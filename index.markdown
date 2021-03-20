@@ -2,13 +2,15 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: carahomeplaceholder
-title: Cara McDade for Under 19's Officer
-featured-image: https://caramcdade.com/assets/branding/homepage-thumbnail.png
+layout: basepage
+title: Cara McDade - Under 19's Officer
+description: Find out more about how Cara McDade is making a better Scottish Young Labour for Under 19's
+featured-image: https://caramcdade.com/assets/branding/homepage-thumbnail-new.png
 ---
 
-<h1>Cara McDade for Under 19's Officer is launching tomorrow</h1>
-<p style="text-align: center">Stay tuned to this page for more information</p>
-<a href="https://caramcdade.com/">Refresh</a>
+{% include promotions/templates/widepageheader.html %}
 
-<div style="margin-bottom: 30vh;">
+{% include promotions/templates/featured-side/featured-side-left.html title="Meet Cara McDade" description="Cara was elected on March 15th 2021 as Scottish Young Labour's Under 19's Officer. Learn more about her here" button="Learn more about Cara" image="/assets/branding/cara.jfif" %}
+
+
+{% include promotions/templates/featured-side/featured-side-right.html title="What would you do as the Under 19's Officer?" description="Suggest your ideas and give feedback on the IDEA's platform so we can make Scottish Young Labour a better place for all" button="Go to IDEAS" image="/assets/stock/people-holding-signs.png" %}
