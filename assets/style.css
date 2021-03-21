@@ -74,3 +74,43 @@ body {
 .CybotCookiebotDialogBody {
     font-family: 'Proxima Nova' !important;
 }
+
+@keyframes homepagetransition {
+    from {
+        min-height: 87vh
+    }
+  
+    to {
+      min-height: 60vh;
+    }
+  }
+
+@keyframes TransitionZoom {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      transform: scale(1)
+    }
+  }
+
+.transitionzoom {
+    animation: TransitionZoom 0.5s ease-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+
+}
+
+/* News strip css */
+
+.news-strip-homepage {
+    background-color: rgb(255, 242, 242);
+    min-height: 130vh;
+}
+
+@media (min-width: 1000px) {
+    .negative-margin {
+        margin-top: -15vh;
+    }
+}
