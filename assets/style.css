@@ -114,3 +114,19 @@ body {
         margin-top: -15vh;
     }
 }
+
+/* Progress css */
+
+.policy-progress {
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.in-discussion {
+    background-color: rgb(255, 187, 0);
+    border-radius: 25px;
+    font-size: 130%;
+    text-align: left;
+    display: inline;
+    color: black;
+}
