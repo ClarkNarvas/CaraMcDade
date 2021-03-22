@@ -13,7 +13,9 @@ These groups will build SYL's presence to become a prominent and relevant campai
 Here is a list of regions that are setting up 👇
 
 Central Scotland - Aaron McLachlann
+
 Glasgow - Cara McDade
+
 Lothian - Emily G
 
 To help complete this policy, we need you to help us build these groups. Gaining or winning in, not just May, but in future elections requires all of us to roll up our sleeves and build the movement we want.
