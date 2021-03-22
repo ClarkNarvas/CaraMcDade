@@ -21,3 +21,5 @@ To help complete this policy, we need you to help us build these groups. Gaining
 Organise and build a regional group today 👇
 
 <a style="text-align: center;" class="btn-lg btn btn-danger" href="https://labour.org.uk/activist-hub/governance-and-legal-hub/clp-hub/equalities-structures/young-labour-branch-registration/">Build a regional group</a>
+
+Written by Clark Narvas
